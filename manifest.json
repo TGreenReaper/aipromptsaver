@@ -1,4 +1,5 @@
 {
     "name": "Prompt Saver",
-    "src": "index.html"
+    "start-url": "index.html",
+    "display": "standalone"
 }
