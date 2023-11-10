@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+#prmp {
+    resize: none;
+    background-image: radial-gradient(rgb(3, 66, 3), rgb(1, 43, 1)  ,black);
+    width: 400px;
+    height: 350px;
+    border:.01in solid rgb(0, 0, 0);
+    border-radius: 10px;
+    animation: load 1s;
+    color:white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+@keyframes load {
+    from {
+        transform: rotate(0deg);
+        background-image: linear-gradient(rgb(38, 0, 255)40, 92, 40), rgb(0, 48, 120)  ,black;
+        opacity: .2;
+        height: 10px;
+    }
+
+    to {
+        transform: rotate(5deg);
+        background-image: linear-gradient(rgb(255, 0, 0), rgb(120, 18, 0)  ,black);
+        opacity: .8;
+        height: 150px;
+    }
+
+ to {
+    transform: rotate(0deg);
+    opacity: 1;
+    height: 350px;
+    background-image: radial-gradient(rgb(3, 66, 3), rgb(1, 43, 1)  ,black);
+
+ } 
+}
+
+#s-btn {
+    width:400px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(1, 31, 1);
+    color: white;
+    box-shadow: 2px 2px 2px 2px lime;
+}
+
+
+#s-btn:active {
+    width:400px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(1, 31, 1);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(255, 0, 0);
+}
+
+#l-btn {
+    width:400px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(1, 31, 1);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(255, 0, 0);
+}
+
+#l-btn:active {
+    box-shadow: 2px 2px 2px 2px rgb(0, 255, 55);
+
+}
