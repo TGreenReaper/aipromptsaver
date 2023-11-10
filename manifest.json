@@ -1,5 +1,10 @@
 {
     "name": "Prompt Saver",
     "start-url": "index.html",
-    "display": "standalone"
+    "display": "standalone",
+    "icons":[
+       {
+        "src": "favicon-32x32.png"
+       }
+    ]
 }
