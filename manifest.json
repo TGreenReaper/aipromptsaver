@@ -6,5 +6,7 @@
        {
         "src": "favicon-32x32.png"
        }
-    ]
+    ],
+    "theme": "#00000",
+    "background-color": "#00000"
 }
