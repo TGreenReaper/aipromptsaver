@@ -9,7 +9,7 @@ body,html {
 
 #prmp {
     resize: none;
-    background-image: radial-gradient(rgb(3, 66, 3), rgb(1, 43, 1)  ,black);
+    background-image: radial-gradient(rgb(3, 66, 3), rgb(5, 78, 5)  ,black);
     width: 400px;
     height: 350px;
     border:.01in solid rgb(0, 0, 0);
@@ -51,7 +51,7 @@ body,html {
     font-family: 'Inter', sans-serif;
     background-color: rgb(1, 31, 1);
     color: white;
-    box-shadow: 2px 2px 2px 2px lime;
+    box-shadow: 1px 1px 1px 1px lime;
 }
 
 
@@ -62,7 +62,7 @@ body,html {
     font-family: 'Inter', sans-serif;
     background-color: rgb(1, 31, 1);
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(255, 0, 0);
+    box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
 }
 
 #l-btn {
@@ -72,10 +72,10 @@ body,html {
     font-family: 'Inter', sans-serif;
     background-color: rgb(1, 31, 1);
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(255, 0, 0);
+    box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
 }
 
 #l-btn:active {
-    box-shadow: 2px 2px 2px 2px rgb(0, 255, 55);
+    box-shadow: 1px 1px 1px 1px rgb(0, 255, 55);
 
 }

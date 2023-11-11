@@ -1,7 +1,12 @@
 
 function save() {
-    localStorage.setItem("vl" , document.getElementById("prmp").value)
+var con = confirm("Are you sure you want to save the prompts?")
+if(con == true && con !== ""){
     alert("Saved!")
+    localStorage.setItem("vl" , document.getElementById("prmp").value)
+} else {
+    alert("Not saved")
+}
 }
 
 function load() {
